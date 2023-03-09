@@ -1,0 +1,111 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: linear-gradient(257deg, rgba(24,110,242,1) 0%, rgba(109,24,239,1) 100%);
+	color: #9f9f9f;
+	font-size: 15px;
+	font-family: 'Rubik', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #212025;
+}
+
+.titl-wrapper {
+	padding: 80px 0;
+}
+
+.head-text {
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.titl-box {
+	padding: 40px 35px;
+	background: #ffffff;
+	border-radius: 5px;
+	margin-top: 60px;
+	box-shadow: 0px 20px 35px 10px rgb(4 9 30 / 5%);
+	transition: .3s;
+}
+
+.titl-box:hover {
+	background: #676cdb;
+}
+
+.titl-box:hover i {
+	color: #ffffff;
+}
+
+.titl-box i {
+	font-size: 45px;
+	color: #000000;
+}
+
+.titl-box:hover h3 {
+	color: #ffffff;
+}
+
+.titl-box h3 {
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.titl-box:hover p {
+	color: #ffffff;
+}
+
+.titl-box p {
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 10px;
+}
